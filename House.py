@@ -4,8 +4,8 @@ st.markdown("## Welcome Delaney Carr")
 st.markdown("### Click to access your schedule")
 
 
-if st.button("Open spring 2025 file"):
-    pdf_path = "Delaney_Carr_Schedule.pdf"  # Ensure the file name is correct and exists in the directory
+if st.button("Open spring 2026 file"):
+    pdf_path = "PDF_DelaneyCarr_Transcript_25_26.pdf"  # Ensure the file name is correct and exists in the directory
     
     # Display the PDF in Streamlit
     with open(pdf_path, "rb") as pdf_file:
